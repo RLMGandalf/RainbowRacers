@@ -4,7 +4,7 @@
     "description": "Broom",
     "display_name": "Racer",
     
-    "build_metal_cost": 120,
+    "build_metal_cost": 1,
     "command_caps": [
         "ORDER_Move",
         "ORDER_Build"
@@ -26,10 +26,10 @@
             "type": "moving"
         }
     ],
-    "max_health": 1200,
+    "max_health": 100,
     "production": {
-        "energy": 2,
-        "metal": 2
+        "energy": 0,
+        "metal": 0.2
     },
     "recon": {
         "observer": {
@@ -45,8 +45,8 @@
     },
     "si_name": "commander",
     "storage": {
-        "energy": 50,
-        "metal": 125
+        "energy": 0,
+        "metal": 1
     },
     "strategic_icon_priority": 0,
     "tools": [

@@ -28,16 +28,6 @@
         }
     },
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "build_metal_cost": 75,
-    "buildable_types": "CmdBuild",
-    "command_caps": [
-        "ORDER_Move",
-        "ORDER_Patrol",
-        "ORDER_Assist",
-        "ORDER_Use"
-    ],
-    "description": "VroomVroom.",
-    "display_name": "RaceCar",
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/veh"
@@ -51,7 +41,6 @@
             "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
         }
     },
-    "max_health": 10,
     "mesh_bounds": [
         3.5,
         4.5,
@@ -73,7 +62,7 @@
         "type": "land-small"
     },
     "physics": {
-        "push_class": 0,
+        "push_class": 1,
         "radius": 3
     },
     "recon": {
