@@ -1,1 +1,63 @@
-{"base_spec": "/pa/units/land/land_scout/land_scout.json"}
+{
+    "base_spec": "/pa/units/land/land_scout/land_scout.json",
+    
+    "description": "Broom",
+    "display_name": "Racer",
+    
+    "build_metal_cost": 120,
+    "command_caps": [
+        "ORDER_Move"
+    ],
+    "fx_offsets": [
+        {
+            "bone": "bone_root",
+            "filename": "/pa/units/commanders/base_commander/rainbow_trail.json",
+            "offset": [
+                0,
+                0,
+                4
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ],
+            "type": "moving"
+        }
+    ],
+    "max_health": 1200,
+    "production": {
+        "energy": 2,
+        "metal": 2
+    },
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "channel": "sight",
+                    "layer": "surface_and_air",
+                    "radius": 20000,
+                    "shape": "capsule"
+                }
+            ]
+        }
+    },
+    "si_name": "commander",
+    "storage": {
+        "energy": 50,
+        "metal": 125
+    },
+    "strategic_icon_priority": 0,
+    "tools": [
+        {
+            "aim_bone": "bone_root",
+            "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
+        }
+    ],
+    "unit_types": [
+        "UNITTYPE_Mobile",
+        "UNITTYPE_Commander",
+        "UNITTYPE_Land",
+        "UNITTYPE_NoBuild"
+    ]
+}
