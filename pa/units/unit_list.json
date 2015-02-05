@@ -49,11 +49,7 @@
     "/pa/units/commanders/tank_aeson/tank_aeson.json",
     "/pa/units/commanders/tank_banditks/tank_banditks.json",
     "/pa/units/commanders/tank_base/tank_base.json",
-    "/pa/units/land/assault_bot/assault_bot.json",
-    "/pa/units/land/bot_factory/bot_factory.json",
-    "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json",
-    "/pa/units/land/radar/radar.json",
-	"/pa/units/land/energy_plant/energy_plant.json",
-	"/pa/units/land/metal_extractor/metal_extractor.json"
+	"/pa/units/land/laser_defense_single/laser_defense_single.json",
+	"/pa/units/land/land_scout/land_scout.json",
   ]
 }
