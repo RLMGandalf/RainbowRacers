@@ -1,0 +1,21 @@
+{
+    "context": "server",
+    "identifier": "Rainbow_Racers",
+    "display_name": "Rainbow Racers",
+    "description": "Race your Car!.",
+    "author": "Yuri Bros",
+    "version": "1.0",
+    "build": "77443",
+    "date": "2015/01/25",
+    "signature": "not yet implemented",
+    "category": [
+        "ui"
+    ],
+    "id": "a",
+    "icon": "none",
+    "priority": 500,
+    "enabled": true,
+    "dependencies": [
+        
+    ]
+}
