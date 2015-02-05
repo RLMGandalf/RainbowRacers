@@ -6,7 +6,8 @@
     
     "build_metal_cost": 120,
     "command_caps": [
-        "ORDER_Move"
+        "ORDER_Move",
+        "ORDER_Build"
     ],
     "fx_offsets": [
         {
