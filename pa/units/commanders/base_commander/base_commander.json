@@ -55,10 +55,12 @@
             "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
         }
     ],
+	"buildable_types":"CmdBuild",
     "unit_types": [
         "UNITTYPE_Mobile",
         "UNITTYPE_Commander",
         "UNITTYPE_Land",
+		"UNITTYPE_Construction",
         "UNITTYPE_NoBuild"
     ]
 }
