@@ -13,7 +13,7 @@
 		"racing"
     ],
     "id": "a",
-    "icon": "none",
+    "icon": "http://i.imgur.com/M1fdn9R.png",
     "priority": 500,
     "enabled": true,
     "dependencies": [
