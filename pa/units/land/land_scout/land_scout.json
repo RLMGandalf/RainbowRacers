@@ -55,10 +55,10 @@
         "filename": "/pa/units/land/land_scout/land_scout.papa"
     },
     "navigation": {
-        "acceleration": 25,
-        "brake": 20,
-        "move_speed": 80,
-        "turn_speed": 70,
+        "acceleration": 40,
+        "brake": 35,
+        "move_speed": 65,
+        "turn_speed": 95,
         "type": "land-small"
     },
     "physics": {
