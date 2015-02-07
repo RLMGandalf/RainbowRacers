@@ -2,14 +2,15 @@
     "context": "server",
     "identifier": "Rainbow_Racers",
     "display_name": "Rainbow Racers",
-    "description": "Race your Car!.",
+    "description": "Race your car through the track and get to the metal spot to build your trophy!.",
     "author": "Yuri Bros",
     "version": "1.0",
-    "build": "77443",
-    "date": "2015/01/25",
+    "build": "77725",
+    "date": "2015/02/07",
     "signature": "not yet implemented",
     "category": [
-        "ui"
+        "game-mode",
+		"racing"
     ],
     "id": "a",
     "icon": "none",
