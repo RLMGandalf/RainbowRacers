@@ -7,10 +7,10 @@
         "animtree": "/pa/anim/anim_trees/tank_armor.json",
         "navigation": {
             "type": "land-small",
-            "acceleration": 20,
+            "acceleration": 15,
             "brake": 40,
             "move_speed": 75,
-            "turn_speed": 100
+            "turn_speed": 95
         }
     }
 }
