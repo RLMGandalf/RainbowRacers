@@ -50,6 +50,7 @@
     "/pa/units/commanders/tank_banditks/tank_banditks.json",
     "/pa/units/commanders/tank_base/tank_base.json",
 	"/pa/units/land/laser_defense_single/laser_defense_single.json",
-	"/pa/units/land/land_scout/land_scout.json"
-  ]
+	"/pa/units/land/land_scout/land_scout.json",
+	"/pa/units/land/land_barrier/land_barrier.json"
+	]
 }
