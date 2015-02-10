@@ -7,7 +7,8 @@
     "build_metal_cost": 1,
     "command_caps": [
         "ORDER_Move",
-        "ORDER_Build"
+        "ORDER_Build",
+		"ORDER_FireSecondaryWeapon"
     ],
     "fx_offsets": [
         {
@@ -53,7 +54,12 @@
         {
             "aim_bone": "bone_root",
             "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
-        }
+        },
+		{
+			"spec_id": "/pa/units/commanders/base_commander/love_bullet_weapon.json",
+			"aim_bone": "bone_root",
+			"secondary_weapon": true
+		}
     ],
 	"buildable_types":"CmdBuild",
     "unit_types": [
