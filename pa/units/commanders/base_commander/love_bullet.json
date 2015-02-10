@@ -7,11 +7,12 @@
   "burn_damage": 1,
   "burn_radius": 15,
   "armor_damage_map": {
-    "AT_Commander": 1
+    "AT_Commander": 5,
+	"AT_Structure": 1
   },
   "cruise_height": 30,
-  "initial_velocity": 300.0,
-  "max_velocity": 300.0,
+  "initial_velocity": 150.0,
+  "max_velocity": 150.0,
   "turn_rate": 200,
   "lifetime": 15,
   "influence_radius": 200,

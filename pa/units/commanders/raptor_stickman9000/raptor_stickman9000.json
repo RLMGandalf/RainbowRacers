@@ -1,1 +1,30 @@
-{"base_spec": "/pa/units/commanders/base_commander/base_commander.json","description": "Broom","display_name": "ExodusEsports.com"}
+{
+    "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
+    "description": "Broom",
+    "display_name": "ExodusEsports.com",
+	"navigation": {
+        "type": "land-small",
+        "acceleration": 60,
+        "brake": 60,
+        "move_speed": 60,
+        "turn_speed": 120,
+        "vertical_speed": 50,
+        "hover_time": -1,
+        "bank_factor": 1
+    },
+    "model": {
+        "filename": "/pa/units/air/gunship/gunship.papa",
+        "animtree": "/pa/anim/anim_trees/gunship_anim_tree.json"
+    },
+    "tools": [
+        {
+            "aim_bone": "bone_root",
+            "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
+        },
+		{
+			"spec_id": "/pa/units/commanders/base_commander/love_bullet_weapon.json",
+            "aim_bone": "bone_root",
+			"secondary_weapon": true
+		}
+    ]
+}

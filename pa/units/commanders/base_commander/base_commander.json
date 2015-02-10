@@ -30,7 +30,7 @@
     "max_health": 100,
     "production": {
         "energy": 1,
-        "metal": 0.2
+        "metal": 0.01
     },
     "recon": {
         "observer": {
@@ -47,7 +47,7 @@
     "si_name": "commander",
     "storage": {
         "energy": 1,
-        "metal": 1
+        "metal": 10
     },
     "strategic_icon_priority": 0,
     "tools": [
