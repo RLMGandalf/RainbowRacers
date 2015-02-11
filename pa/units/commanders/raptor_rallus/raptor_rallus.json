@@ -1,1 +1,20 @@
-{"base_spec": "/pa/units/commanders/base_commander/base_commander.json","description": "Broom","display_name": "Mental Omega"}
+{
+    "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
+    "description": "Broom",
+    "display_name": "Mental Omega",
+    "model": {
+        "filename": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.papa",
+        "animations": {
+            "run": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle_anim_run.papa"
+        },
+        "walk_speed": 7,
+        "animtree": "/pa/anim/anim_trees/aa_missile_vehicle_anim_tree.json"
+    },
+    "navigation": {
+        "acceleration": 30,
+        "brake": 30,
+        "move_speed": 95,
+        "turn_speed": 80,
+        "type": "land-small"
+    }
+}

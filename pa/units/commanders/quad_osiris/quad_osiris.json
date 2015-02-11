@@ -1,1 +1,12 @@
-{"base_spec": "/pa/units/commanders/base_commander/base_commander.json","description": "Broom","display_name": "pastats.com"}
+{
+    "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
+    "description": "Broom",
+    "display_name": "pastats.com",
+    "navigation": {
+        "acceleration": 20,
+        "brake": 10,
+        "move_speed": 75,
+        "turn_speed": 130,
+        "type": "land-small"
+    }
+}

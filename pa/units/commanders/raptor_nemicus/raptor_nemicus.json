@@ -1,1 +1,20 @@
-{"base_spec": "/pa/units/commanders/base_commander/base_commander.json","description": "Broom","display_name": "Meowchal Schumacher"}
+{
+    "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
+    "description": "Broom",
+    "display_name": "Meowchal Schumacher",
+    "model": {
+        "filename": "/pa/units/land/bot_tactical_missile/bot_tactical_missile.papa",
+        "animations": {
+            "run": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_run.papa"
+        },
+        "animtree": "/pa/anim/anim_trees/bot_tactical_missile_anim_tree.json",
+        "walk_speed": 12
+    },
+    "navigation": {
+        "acceleration": 15,
+        "brake": 10,
+        "move_speed": 65,
+        "turn_speed": 145,
+        "type": "land-small"
+    }
+}
