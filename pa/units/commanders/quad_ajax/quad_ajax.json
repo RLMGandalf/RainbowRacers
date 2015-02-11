@@ -4,13 +4,13 @@
     "display_name": "Rainbow Dash",
     "model": {
         "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa",
-        "animtree": "/pa/anim/anim_trees/tank_armor.json",
-        "navigation": {
-            "type": "land-small",
-            "acceleration": 15,
-            "brake": 40,
-            "move_speed": 75,
-            "turn_speed": 95
-        }
+        "animtree": "/pa/anim/anim_trees/tank_armor.json"
+		},
+    "navigation": {
+        "acceleration": 20,
+        "brake": 40,
+        "move_speed": 80,
+        "turn_speed": 95,
+        "type": "land-small"
     }
 }

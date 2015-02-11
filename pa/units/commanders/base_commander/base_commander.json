@@ -1,14 +1,12 @@
 {
     "base_spec": "/pa/units/land/land_scout/land_scout.json",
-    
     "description": "Broom",
     "display_name": "Racer",
-    
     "build_metal_cost": 1,
     "command_caps": [
         "ORDER_Move",
         "ORDER_Build",
-		"ORDER_FireSecondaryWeapon"
+        "ORDER_FireSecondaryWeapon"
     ],
     "fx_offsets": [
         {
@@ -27,10 +25,17 @@
             "type": "moving"
         }
     ],
+    "navigation": {
+        "acceleration": 40,
+        "brake": 30,
+        "move_speed": 60,
+        "turn_speed": 105,
+        "type": "land-small"
+    },
     "max_health": 100,
     "production": {
         "energy": 1,
-        "metal": 0.01
+        "metal": 0.05
     },
     "recon": {
         "observer": {
@@ -47,7 +52,7 @@
     "si_name": "commander",
     "storage": {
         "energy": 1,
-        "metal": 10
+        "metal": 5
     },
     "strategic_icon_priority": 0,
     "tools": [
@@ -55,18 +60,18 @@
             "aim_bone": "bone_root",
             "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
         },
-		{
-			"spec_id": "/pa/units/commanders/base_commander/love_bullet_weapon.json",
-			"aim_bone": "bone_root",
-			"secondary_weapon": true
-		}
+        {
+            "spec_id": "/pa/units/commanders/base_commander/love_bullet_weapon.json",
+            "aim_bone": "bone_root",
+            "secondary_weapon": true
+        }
     ],
-	"buildable_types":"CmdBuild",
+    "buildable_types": "CmdBuild",
     "unit_types": [
         "UNITTYPE_Mobile",
         "UNITTYPE_Commander",
         "UNITTYPE_Land",
-		"UNITTYPE_Construction",
+        "UNITTYPE_Construction",
         "UNITTYPE_NoBuild"
     ]
 }

@@ -17,7 +17,7 @@
         4,
         4
     ],
-    "area_build_separation": 0.2,
+    "area_build_separation": 0.5,
     "unit_types": [
         "UNITTYPE_Structure",
         "UNITTYPE_Basic",

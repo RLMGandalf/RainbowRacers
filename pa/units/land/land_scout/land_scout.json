@@ -54,13 +54,6 @@
         "arrows": 5,
         "filename": "/pa/units/land/land_scout/land_scout.papa"
     },
-    "navigation": {
-        "acceleration": 40,
-        "brake": 30,
-        "move_speed": 60,
-        "turn_speed": 105,
-        "type": "land-small"
-    },
     "physics": {
         "push_class": 1,
         "radius": 3
