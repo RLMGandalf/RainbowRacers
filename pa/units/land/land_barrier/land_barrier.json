@@ -52,7 +52,7 @@
         {
             "layer": "WL_LandHorizontal",
             "filename": "/pa/units/land/land_barrier/land_barrier.papa"
-        },
+        }
     ],
     "events": {
         "build_complete": {
