@@ -15,7 +15,7 @@
   "auto_attack": false,
   "spread_fire": true,
   "manual_fire" : true,
-  "rate_of_fire": 0.05,
+  "rate_of_fire": 0.5,
   "target_layers": [
     "WL_LandHorizontal",
     "WL_WaterSurface"
