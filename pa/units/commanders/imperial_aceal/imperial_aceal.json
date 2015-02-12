@@ -1,1 +1,20 @@
-{"base_spec": "/pa/units/commanders/base_commander/base_commander.json","description": "Broom","display_name": "Magnificent Realm Car"}
+{
+    "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
+    "description": "Broom",
+    "display_name": "Magnificent Realm Car",
+    "model": {
+        "filename": "/pa/units/land/bot_bomb/bot_bomb.papa",
+        "animations": {
+            "walk": "/pa/units/land/bot_bomb/bot_bomb_anim_run.papa"
+        },
+        "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
+        "walk_speed": 40
+    },
+    "navigation": {
+        "acceleration": 50,
+        "brake": 20,
+        "move_speed": 60,
+        "turn_speed": 105,
+        "type": "land-small"
+    }
+}

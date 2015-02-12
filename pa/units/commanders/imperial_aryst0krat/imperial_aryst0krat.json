@@ -1,1 +1,20 @@
-{"base_spec": "/pa/units/commanders/base_commander/base_commander.json","description": "Broom","display_name": "MaxMobile"}
+{
+    "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
+    "description": "Broom",
+    "display_name": "MaxMobile",
+    "model": {
+        "filename": "/pa/units/land/assault_bot/assault_bot.papa",
+        "animations": {
+            "walk": "/pa/units/land/assault_bot/assault_bot_anim_run.papa"
+        },
+        "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json",
+        "walk_speed": 20
+    },
+    "navigation": {
+        "acceleration": 65,
+        "brake": 10,
+        "move_speed": 60,
+        "turn_speed": 100,
+        "type": "land-small"
+    }
+}
