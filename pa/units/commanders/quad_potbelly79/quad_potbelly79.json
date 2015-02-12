@@ -1,1 +1,16 @@
-{"base_spec": "/pa/units/commanders/base_commander/base_commander.json","description": "Broom","display_name": "Tazmanian Devil"}
+{
+    "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
+    "description": "Broom",
+    "display_name": "Tazmanian Devil",
+    "model": {
+        "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa",
+        "animtree": "/pa/anim/anim_trees/tank_armor.json"
+		},
+    "navigation": {
+        "acceleration": 40,
+        "brake": 10,
+        "move_speed": 90,
+        "turn_speed": 95,
+        "type": "land-small"
+    }
+}
