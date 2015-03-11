@@ -26,9 +26,9 @@
         }
     ],
     "navigation": {
-        "acceleration": 40,
-        "brake": 30,
-        "move_speed": 60,
+        "acceleration": 25,
+        "brake": 35,
+        "move_speed": 70,
         "turn_speed": 105,
         "type": "land-small"
     },

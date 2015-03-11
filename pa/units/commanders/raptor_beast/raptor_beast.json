@@ -1,12 +1,5 @@
 {
     "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
     "description": "Broom",
-    "display_name": "Uber Entertainment",
-    "navigation": {
-        "acceleration": 25,
-        "brake": 10,
-        "move_speed": 64,
-        "turn_speed": 136,
-        "type": "land-small"
-    }
+    "display_name": "Uber Entertainment"
 }

@@ -1,12 +1,5 @@
 {
     "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
     "description": "Broom",
-    "display_name": "Play Guma Guma Slide",
-    "navigation": {
-        "acceleration": 45,
-        "brake": 45,
-        "move_speed": 55,
-        "turn_speed": 90,
-        "type": "land-small"
-    }
+    "display_name": "Play Guma Guma Slide"
 }

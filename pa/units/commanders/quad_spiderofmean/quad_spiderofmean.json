@@ -5,12 +5,5 @@
     "model": {
         "filename": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.papa",
         "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
-    },
-    "navigation": {
-        "acceleration": 50,
-        "brake": 20,
-        "move_speed": 100,
-        "turn_speed": 65,
-        "type": "land-small"
     }
 }

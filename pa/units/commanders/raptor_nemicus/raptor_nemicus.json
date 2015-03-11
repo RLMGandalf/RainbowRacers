@@ -9,12 +9,5 @@
         },
         "animtree": "/pa/anim/anim_trees/bot_tactical_missile_anim_tree.json",
         "walk_speed": 12
-    },
-    "navigation": {
-        "acceleration": 25,
-        "brake": 40,
-        "move_speed": 55,
-        "turn_speed": 115,
-        "type": "land-small"
     }
 }

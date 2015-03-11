@@ -5,12 +5,5 @@
     "model": {
         "filename": "/pa/units/land/tank_armor/tank_armor.papa",
         "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json"
-    },
-    "navigation": {
-        "acceleration": 30,
-        "brake": 15,
-        "move_speed": 65,
-        "turn_speed": 125,
-        "type": "land-small"
     }
 }

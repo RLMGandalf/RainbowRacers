@@ -9,12 +9,5 @@
         },
         "walk_speed": 7,
         "animtree": "/pa/anim/anim_trees/aa_missile_vehicle_anim_tree.json"
-    },
-    "navigation": {
-        "acceleration": 30,
-        "brake": 30,
-        "move_speed": 95,
-        "turn_speed": 80,
-        "type": "land-small"
     }
 }

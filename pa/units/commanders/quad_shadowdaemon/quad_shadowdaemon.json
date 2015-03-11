@@ -9,12 +9,5 @@
         },
         "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
         "walk_speed": 40
-    },
-    "navigation": {
-        "acceleration": 35,
-        "brake": 35,
-        "move_speed": 60,
-        "turn_speed": 105,
-        "type": "land-small"
     }
 }
