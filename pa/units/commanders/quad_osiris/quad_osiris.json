@@ -1,5 +1,13 @@
 {
     "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
     "description": "Broom",
-    "display_name": "pastats.com"
+    "display_name": "pastats.com",
+    "model": {
+        "filename": "/pa/units/land/land_mine/land_mine.papa",
+        "animations": {
+            "walk": "/pa/units/land/bot_bomb/bot_bomb_anim_run.papa"
+        },
+        "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
+        "walk_speed": 40
+    }
 }

@@ -5,8 +5,7 @@
     "build_metal_cost": 1,
     "command_caps": [
         "ORDER_Move",
-        "ORDER_Build",
-        "ORDER_FireSecondaryWeapon"
+        "ORDER_Build"
     ],
     "fx_offsets": [
         {
